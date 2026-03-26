@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</div>
+
+<h1>Contact Me</h1>
+
+<!-- Contact Box -->
+<div class="contact-box">
+
+    <input type="text" id="name" placeholder="Your Name"><br><br>
+
+    <input type="email" id="email" placeholder="Your Email"><br><br>
+
+    <textarea id="message" placeholder="Your Message"></textarea><br><br>
+
+    <button onclick="sendMessage()">Send Message</button>
+
+</div>
+
+<!-- Popup START -->
+<div id="popup" class="popup">
+    <div class="popup-box">
+        <p id="popup-text">Message</p>
+        <button onclick="closePopup()">OK</button>
+    </div>
+</div>
+<!-- Popup END -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
